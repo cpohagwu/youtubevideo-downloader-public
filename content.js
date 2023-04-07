@@ -14,7 +14,7 @@ function gotMessage(message, sender, sendResponse) {
        
         
         // Get the reciever endpoint from Python using fetch:
-        fetch("https://get-youtube-video.onrender.com/receiver", 
+        fetch("https://api.render.com/deploy/srv-cgnqu1l269v5rj89eda0?key=LRsT6WteONc/receiver", 
         {
             method: 'POST',
             headers: {
