@@ -14,7 +14,7 @@ function gotMessage(message, sender, sendResponse) {
        
         
         // Get the reciever endpoint from Python using fetch:
-        fetch("http://0.0.0.0:10000/receiver", 
+        fetch("https://0.0.0.0:10000/receiver", 
         {
             method: 'POST',
             headers: {
